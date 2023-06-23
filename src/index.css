@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  animation-name: backgroundColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes backgroundColorPalette {
+  0% {
+    background: #FEBE8C;
+  }
+  25% {
+    background: #79E0EE;
+  }
+  50% {
+    background: #DEF5E5;
+  }
+  75% {
+    background: #ECF2FF;
+  }
+  100% {
+    background: #B9F3FC;
+  }
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.displaying{
+width:300px;
+height:300px;
+left:20px;
+top:20px;
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+}
+img{
+  width:300px;
+  height:250px;
+}
+.log{
+  display:flex;
+  margin:auto;
+  height:100vh;
+  width:100vw;
+  justify-content: center;
+}
+.ot{
+  display:flex;
+  margin:auto;
+  height:100vh;
+  width:100vw;
+  justify-content: center;
+}
+.otContainer{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin-top:120px;
+  width:800px;
+  height:600px;
+  border-radius: 25px;
+  display: flex;
+}
+.otpImgContainer{
+  width:500px;
+height:600px;
+}
+.otpContainer{
+background-image: url('https://img.freepik.com/free-vector/abstract-mesh-background_1217-872.jpg?w=826&t=st=1687518850~exp=1687519450~hmac=7946275948c477c4ec3377017e42cfdf6a6cf2464bff2b260bda760b4cc3019f');
+background-size: cover;
+background-position: center;
+width:400px;
+height:600px;
+display: grid;
+margin: auto;
+/* border-radius:5%; */
+opacity: 0.8;
+border-bottom-right-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.logContainer{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin-top:120px;
+  width:800px;
+  height:600px;
+  border-radius: 25px;
+  display: flex;
+}
+.logImgContainer{
+width:500px;
+height:600px;
+}
+.loginContainer{
+background-image: url('https://i.pinimg.com/564x/8d/1a/0e/8d1a0eaaeb909ebad4b2593067a7e7ec.jpg');
+background-size: cover;
+background-position: center;
+width:400px;
+height:600px;
+display: grid;
+margin: auto;
+/* border-radius:5%; */
+opacity: 0.8;
+border-bottom-right-radius: 5%;
+  border-top-right-radius: 5%;
+}
+img{
+  width:100%;
+  height:100%;
+  /* border-top-left-radius: 5%; */
+}
+.inpContainer{
+  margin:auto;
+  height:200px;
+}
+.loginImg{
+  width:100%;
+  height: 100%;
+  border-bottom-left-radius: 5%;
+  border-top-left-radius: 5%;
+}
+.otpimg{
+  width:100%;
+  height: 100%;
+  border-bottom-left-radius: 5%;
+  border-top-left-radius: 5%;
+}
+.ottContainer{
+  margin:auto;
+  margin-left:120px;
+  margin-top:150px; 
+}
+.otpBtn{
+  display: grid;
+  margin:auto;
+  margin-left:90px;
+  width:100px;
+  margin-bottom: 400px;
+}
+.profileContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width:100%;
+  height:100%;
+}
+.proContainer{
+display: flex;
+width:800px;
+height:600px;
+border:2px solid black;
+margin: auto;
+margin-top:150px;
+flex-wrap: wrap;
+overflow-y: auto;
+box-shadow: 5px 10px #888888;
+background-image: url('https://i.pinimg.com/736x/66/97/62/66976219fb128181dd181040e52fe3ad.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+opacity: 0.9;
+}
+.displaying{
+  width:250px;
+  height:250px;
+  border: 1px solid black;
+  background-color: #B8FFF9;
+  box-shadow: 5px 10px #888888;
+}
+.profileImg{
+  width:250px;
+  height:250px;
+}
+.viewBtn{
+  background-color: #79E0EE;
+  border-radius: 25px;
+  width:80px;
+  height:25px;
+  font-weight: bold;
+}
+.icon{
+  position: absolute;
+  bottom:2rem;
+  right:38rem;
+}
+.logOutBtn{
+  /* background-color: red; */
+  font-weight: bold;
+  position: absolute;
+  top:7rem;
+  right:36rem;
+}
+.form{
+  display: grid;
+  margin: auto;
+  justify-content: center;
+}
+.form_buttons{
+  position: relative;
+  left: 375px;
+}
+#template1{
+  display:flex;
+}
+.info{
+  width:500px;
+}
+.skills{
+ width:500px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
